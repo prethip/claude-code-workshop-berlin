@@ -1,9 +1,6 @@
 {
   "name": "Claude Code Workshop",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "context": ".."
-  },
+  "image": "ghcr.io/nakuls08/cc-workshop-devcontainer:latest",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
