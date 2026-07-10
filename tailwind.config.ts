@@ -7,7 +7,7 @@ const config: Config = {
       colors: {
         ink: "#0f0f0f",
         paper: "#fafaf7",
-        accent: "#3b82f6",
+        accent: "#c2591a",
       },
       fontFamily: {
         sans: ["ui-sans-serif", "system-ui", "sans-serif"],

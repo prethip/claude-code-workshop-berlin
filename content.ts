@@ -5,11 +5,11 @@
 // ────────────────────────────────────────────────────────────────
 
 export const hero = {
-  name: "Anna Schneider",
-  role: "Product Designer",
+  name: "Madhu",
+  role: "Photographer",
   location: "Berlin, Germany",
   headline:
-    "I help early-stage teams turn fuzzy ideas into shipping products. Currently designing checkout flows at a fintech startup.",
+    "I chase light for a living — and for fun. Street scenes, quiet portraits, and the odd sunrise that made getting out of bed worth it.",
   ctaPrimary: { label: "See my work", href: "#projects" },
   ctaSecondary: { label: "Get in touch", href: "#contact" },
 };
@@ -17,80 +17,80 @@ export const hero = {
 export const about = {
   heading: "About",
   paragraphs: [
-    "I'm a product designer with seven years of experience across fintech, e-commerce, and developer tools. I care about the unglamorous parts of design — error states, edge cases, and the slow trust-building between a product and its users.",
-    "Before design, I studied philosophy in Munich. It turns out a lot of design is just disciplined thinking about what people actually need versus what they say they want.",
-    "Outside work I climb (poorly), read (constantly), and run a small Sunday breakfast club in Neukölln.",
+    "I picked up a camera to document a trip and never really put it down again. What started as travel snapshots turned into a habit of noticing — the way light lands on a wall at 6pm, the half-second before someone's expression settles.",
+    "I shoot mostly street and portrait work, with a soft spot for film. There's something about not knowing what you got until the roll comes back that keeps me honest — fewer, more deliberate frames instead of a thousand almost-photos.",
+    "When I'm not shooting, I'm probably scouting locations on foot, elbow-deep in a Lightroom catalog at 1am, or trying to convince a friend that yes, we do need to wake up before sunrise for this.",
   ],
 };
 
 export const experience = {
-  heading: "Experience",
+  heading: "Journey",
   roles: [
     {
-      title: "Senior Product Designer",
-      company: "Tide",
+      title: "Freelance Photographer",
+      company: "Self-employed",
       period: "2023 — Present",
       summary:
-        "Leading checkout and onboarding redesign for the business banking app. Cut signup drop-off by 34% in the first quarter after launch.",
+        "Shooting portraits, events, and personal street series around Berlin. Building a body of work one roll of film and one memory card at a time.",
     },
     {
-      title: "Product Designer",
-      company: "GitLab",
-      period: "2020 — 2023",
+      title: "Featured Artist",
+      company: "Neukölln Open Studios",
+      period: "2023",
       summary:
-        "Owned the merge request review experience. Shipped inline code review, suggested changes UX, and the new diff renderer.",
+        "Exhibited a 12-print street photography series exploring solitude in a crowded city. First time seeing my own work on a gallery wall.",
     },
     {
-      title: "Designer",
-      company: "Freelance",
-      period: "2017 — 2020",
+      title: "Where it started",
+      company: "A borrowed camera, a long trip",
+      period: "2019",
       summary:
-        "Worked with 14 early-stage startups across Berlin and Tel Aviv on brand, web, and product design.",
+        "Picked up a friend's old DSLR for a month of travel and came home with 4,000 photos and a new obsession. Never looked back.",
     },
   ],
 };
 
 export const projects = {
-  heading: "Selected work",
+  heading: "Featured series",
   items: [
     {
-      title: "Tide Checkout Redesign",
+      title: "Strangers of the S-Bahn",
       year: "2024",
       summary:
-        "Reframed the onboarding flow around clarity over speed. Three rounds of usability testing, six prototypes, one launch — 34% improvement in completion.",
-      link: { label: "Case study", href: "#" },
+        "A candid street portrait series shot entirely on Berlin's commuter trains — six months, one camera, and a lot of quietly asking permission afterward.",
+      link: { label: "View series", href: "#" },
     },
     {
-      title: "GitLab Inline Code Review",
-      year: "2022",
-      summary:
-        "Designed the inline review pattern now used by 30+ million developers. Started as a hack-week prototype, became a flagship feature.",
-      link: { label: "Read the writeup", href: "#" },
-    },
-    {
-      title: "Berlin Coffee Map",
+      title: "Concrete & Light",
       year: "2023",
       summary:
-        "A side project mapping independent coffee roasters in Berlin. Built with React + Mapbox. Used by ~2k people a week.",
-      link: { label: "View live", href: "#" },
+        "Berlin's brutalist architecture at golden hour. A study in how harsh, blocky buildings soften completely for about twenty minutes a day.",
+      link: { label: "View series", href: "#" },
+    },
+    {
+      title: "Ilford Diaries",
+      year: "2023 — ongoing",
+      summary:
+        "A running black-and-white film journal — one roll a month, no digital backup plan, no do-overs. Currently on roll #14.",
+      link: { label: "View series", href: "#" },
     },
   ],
 };
 
 export const skills = {
-  heading: "What I work with",
+  heading: "Gear & craft",
   groups: [
     {
-      label: "Design",
-      items: ["Product strategy", "Interaction design", "Prototyping", "Usability testing", "Design systems"],
+      label: "Photography",
+      items: ["Street photography", "Portraiture", "Film photography", "Long exposure", "Natural light"],
     },
     {
-      label: "Tools",
-      items: ["Figma", "Linear", "Notion", "Framer", "FigJam"],
+      label: "Gear",
+      items: ["Fujifilm X-T4", "35mm f/1.4", "Ilford HP5 film", "A very patient tripod"],
     },
     {
-      label: "Code",
-      items: ["HTML / CSS", "React (basics)", "Git"],
+      label: "Post",
+      items: ["Lightroom", "Capture One", "Darkroom printing", "Film scanning"],
     },
   ],
 };
@@ -100,15 +100,15 @@ export const testimonials = {
   quotes: [
     {
       text:
-        "Anna is rare. She holds the long-term product vision and the pixel-level craft in the same head, and shifts between them without losing either.",
-      author: "Lukas Weber",
-      role: "Head of Product, Tide",
+        "Madhu has this way of making you forget there's a camera pointed at you at all — and somehow that's exactly when the best shot happens.",
+      author: "Lena Brandt",
+      role: "Portrait client",
     },
     {
       text:
-        "Working with Anna recalibrated how our whole team thinks about review. She has an instinct for what's actually friction versus what just feels like friction.",
-      author: "Sara Patel",
-      role: "Engineering Manager, GitLab",
+        "I've seen a lot of Berlin street photography. The S-Bahn series stuck with me because it's not about the city — it's about the ten seconds before someone notices they're being seen.",
+      author: "Jonas Richter",
+      role: "Curator, Neukölln Open Studios",
     },
   ],
 };
@@ -116,16 +116,16 @@ export const testimonials = {
 export const contact = {
   heading: "Get in touch",
   body:
-    "Open to product design roles, collaborations, and the occasional coffee. Berlin or remote.",
-  email: "anna@example.com",
+    "Open to portrait sessions, collaborations, and prints. Based in Berlin, happy to travel for the right light.",
+  email: "madhu@example.com",
   socials: [
+    { label: "Instagram", href: "https://instagram.com/yourname" },
+    { label: "500px", href: "https://500px.com/yourname" },
     { label: "LinkedIn", href: "https://linkedin.com/in/yourname" },
-    { label: "Twitter / X", href: "https://twitter.com/yourname" },
-    { label: "Read.cv", href: "https://read.cv/yourname" },
   ],
 };
 
 export const meta = {
-  title: "Anna Schneider — Product Designer",
-  description: "Berlin-based product designer. Currently at Tide.",
+  title: "Madhu — Photographer",
+  description: "Berlin-based photographer. Street, portrait, and film work.",
 };
